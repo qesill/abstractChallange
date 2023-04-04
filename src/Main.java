@@ -10,5 +10,7 @@ public class Main {
             b) dodaj getter i setter
             c) na koniec stwórz metodę toString, która prezentowała by dane z Employee i Programmer
          */
+        Employee employee = new Programmer("Jan", "Kowalski", "Java");
+        System.out.println(employee.toString());
     }
 }
